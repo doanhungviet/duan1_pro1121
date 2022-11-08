@@ -176,15 +176,5 @@ public class Create_Fragment_HocVien extends Fragment {
         super.onDestroy();
         LocalBroadcastManager.getInstance(getContext()).unregisterReceiver(broadcastReceiver);
     }
-    private void replaceFragment(Fragment fragment){
-        Fragment fragment1 = getActivity().getSupportFragmentManager().findFragmentByTag(fragment.getClass().getSimpleName());
-        FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
-        if (fragment1 != null) {
-            transaction.replace(R.id.layout_content_hocvien,fragment1);
-        }else{
-            transaction.replace(R.id.layout_content_hocvien, fragment, fragment.getClass().getSimpleName()).addToBackStack(fragment.getClass().getSimpleName());
-        }
 
-        transaction.commit();
-    }
 }

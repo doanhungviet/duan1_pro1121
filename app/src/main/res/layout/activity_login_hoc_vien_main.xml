@@ -87,8 +87,8 @@
                 android:layout_weight="5"
                 android:layout_marginLeft="10dp"/>
         </LinearLayout>
-        <FrameLayout
-            android:id="@+id/layout_content_hocvien"
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewpager_hocvien"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
     </LinearLayout>
