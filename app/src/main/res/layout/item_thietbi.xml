@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="270dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:background="@color/blue2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:id="@+id/layout_update_itemthietbi">
+
+        <ImageView
+            android:id="@+id/avt_itemthietbi"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_account" />
+        <TextView
+            android:id="@+id/tv_id_itemthietbi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="id: 0862150203"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_name_itemthietbi"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_id_itemthietbi"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:text="Tên thiêt bị: Dương Quang Mạnh"
+            android:textSize="18dp"/>
+        <TextView
+            android:id="@+id/tv_loai_itemthietbi"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_name_itemthietbi"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:text="Loại: Máy"
+            android:textSize="18dp"
+            />
+        <TextView
+            android:id="@+id/tv_soluong_itemthietbi"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_loai_itemthietbi"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:text="Số lượng: 100"
+            android:textSize="18dp"
+            />
+        <TextView
+            android:id="@+id/tv_hangsanxuat_itemthietbi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_soluong_itemthietbi"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:text="Hãng sản xuất: Mỹ"
+            android:textSize="18dp"
+            />
+        <TextView
+            android:id="@+id/tv_tinhtrang_itemadmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_hangsanxuat_itemthietbi"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:text="Tình trạng: tốt"
+            android:textSize="18dp"
+            />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

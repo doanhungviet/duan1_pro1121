@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.LoginAdmin_MainActivity"
+    android:background="#8BC34A"
+    >
+    <RelativeLayout
+        android:id="@+id/layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#8BC34A"
+        >
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            app:lottie_autoPlay="true"
+            app:lottie_rawRes="@raw/logoapp"
+            app:lottie_repeatCount="@integer/material_motion_duration_long_2" />
+
+        <TextView
+            android:id="@+id/tv_gym"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="104dp"
+            android:fontFamily="@font/fontbold"
+            android:text="Gym"
+            android:textColor="#795548"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tv_manager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="55dp"
+            android:fontFamily="@font/fontbold"
+            android:text="Manager"
+            android:textColor="#795548"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout_1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-10dp"
+        android:background="@drawable/bg_login"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_green"
+            android:elevation="16dp"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_white"
+                android:gravity="center"
+                android:text="Đăng Nhập"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Tài khoản"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edt_sdt_loginadmin"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/custom_edt"
+            android:drawableEnd="@drawable/ic_phone"
+            android:hint="Email hoặc số điện thoại"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Mật khẩu"
+            android:textSize="18sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconDrawable="@drawable/ic_eye_off"
+            app:endIconMode="custom"
+            app:hintEnabled="false"
+            android:layout_marginTop="5dp"
+            android:id="@+id/textinput_loginadmin"
+            >
+
+            <EditText
+                android:id="@+id/edt_mk_loginadmin"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="8 kí tự"
+                android:background="@drawable/custom_edt"
+                android:paddingStart="10dp"
+                android:paddingEnd="5dp"
+                android:inputType="textPassword"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <CheckBox
+            android:id="@+id/cbo_loginadmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhớ mật khẩu?"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:id="@+id/btn_dangnhap_loginadmin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_gray"
+            android:text="Đăng nhập"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:enabled="false"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/bg_tophocvien">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/avt_trangchu_hocvien"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_account" />
+
+        <TextView
+            android:id="@+id/tv_name_trangchu_hocvien"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="22dp"
+            android:layout_toEndOf="@+id/avt_trangchu_hocvien"
+            android:text="@string/app_name"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_chuc_trangchu_hocvien"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_name_trangchu_hocvien"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/avt_trangchu_hocvien"
+            android:text="@string/loichao"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#F4511E"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_notifi"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:contentDescription="@string/app_name" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcy_trangchu_hocvien"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-15dp" />
+</LinearLayout>

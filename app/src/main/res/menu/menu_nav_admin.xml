@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_quanlythongbao"
+            android:title="@string/nav_quanlythongbao_admin"
+            android:icon="@drawable/ic_notifi"/>
+        <item android:id="@+id/nav_quanlykhachhang"
+            android:title="@string/nav_quanlykhachhang_admin"
+            android:icon="@drawable/ic_client"/>
+        <item android:id="@+id/nav_quanlythetap"
+            android:title="@string/nav_quanlythetap_admin"
+            android:icon="@drawable/ic_thetap"/>
+    </group>
+    <item android:title="">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/nav_quanlycuahang"
+                    android:title="@string/nav_quanlycuahang_admin"
+                    android:icon="@drawable/ic_shop"/>
+                <item android:id="@+id/nav_quanlythietbi"
+                    android:title="@string/nav_quanlythietbi_admin"
+                    android:icon="@drawable/ic_thietbi"/>
+                <item android:id="@+id/nav_quanlyloaithetap"
+                    android:title="@string/nav_quanlyloaithetap_admin"
+                    android:icon="@drawable/ic_thetap"/>
+                <item android:id="@+id/nav_quanlychucvu"
+                    android:title="@string/nav_quanlychucvu_admin"
+                    android:icon="@drawable/ic_chucvu"/>
+                <item android:id="@+id/nav_quanlyadmin"
+                    android:title="@string/nav_quanlyadmin_admin"
+                    android:icon="@drawable/ic_admin"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/nav_doanhthu"
+                    android:title="@string/nav_quanlydoanhthu_admin"
+                    android:icon="@drawable/ic_doanhthu"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/nav_quanlytaikhoan"
+                    android:title="@string/nav_quanlytaikhoan_admin"
+                    android:icon="@drawable/ic_quanlyaccount"/>
+                <item android:id="@+id/nav_doimatkhau"
+                    android:title="@string/nav_doimatkhau_admin"
+                    android:icon="@drawable/ic_pass"/>
+                <item android:id="@+id/nav_dangxuat"
+                    android:title="@string/nav_dangxuat_admin"
+                    android:icon="@drawable/ic_logout"/>
+            </group>
+        </menu>
+    </item>
+</menu>

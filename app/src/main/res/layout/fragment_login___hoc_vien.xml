@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.hocvien.Login_Fragment_HocVien"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Số điện thoại"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edt_sdt_loginhocvien"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/custom_edt"
+        android:drawableEnd="@drawable/ic_phone"
+        android:hint="090909...."
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Mật khẩu"
+        android:textSize="18sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:endIconDrawable="@drawable/ic_eye_off"
+        app:endIconMode="custom"
+        app:hintEnabled="false"
+        android:layout_marginTop="5dp"
+        android:id="@+id/textinput_loginhocvien"
+        >
+
+        <EditText
+            android:id="@+id/edt_mk_loginhocvien"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="8 kí tự"
+            android:inputType="textPassword"
+            android:background="@drawable/custom_edt"
+            android:paddingStart="10dp"
+            android:paddingEnd="5dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <CheckBox
+        android:id="@+id/cbo_loginhocvien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhớ mật khẩu?"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/btn_dangnhap_loginhocvien"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_gray"
+        android:text="Đăng nhập"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:enabled="false"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

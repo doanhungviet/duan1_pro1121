@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">DuAn_BaoVe</string>
+    <string name="bottonnav_trangchu">Trang chủ</string>
+    <string name="bottonnav_cuahang">Cửa hàng</string>
+    <string name="bottonnav_canhan">Cá nhân</string>
+
+    <string name="nav_quanlychucvu_admin">Quản lý chức vụ</string>
+    <string name="nav_quanlythongbao_admin">Quản lý thông báo</string>
+    <string name="nav_quanlythietbi_admin">Quản lý thiết bị</string>
+    <string name="nav_quanlyadmin_admin">Quản lý nhân viên</string>
+    <string name="nav_quanlyloaithetap_admin">Quản lý loại thẻ tập</string>
+    <string name="nav_quanlykhachhang_admin">Quản lý khách hàng</string>
+    <string name="nav_quanlycuahang_admin">Quản lý cửa hàng</string>
+    <string name="nav_quanlythetap_admin">Quản lý thẻ tập</string>
+    <string name="nav_doimatkhau_admin">Đổi mật khẩu</string>
+    <string name="nav_dangxuat_admin">Đăng xuất</string>
+    <string name="nav_quanlytaikhoan_admin">Tài khoản</string>
+    <string name="nav_quanlydoanhthu_admin">Doanh thu</string>
+
+    <string name="nav_drawer_open">Open navigation drawer</string>
+    <string name="nav_drawer_close">Close navigation drawer</string>
+    <string name="cuahang">Cửa hàng</string>
+    <string name="loichao">Chúc bạn một ngày tốt lành</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="FAB1">MENU</string>
+</resources>

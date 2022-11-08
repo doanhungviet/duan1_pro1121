@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:background="@color/blue2"
+        android:id="@+id/layout_update_itemthongbao">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/avt_itemthongbao"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_account" />
+
+        <TextView
+            android:id="@+id/tv_tenuser_itemthongbao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/avt_itemthongbao"
+            android:text="Dương Quang Mạnh"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_time_itemthongbao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_tenuser_itemthongbao"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/avt_itemthongbao"
+            android:text="15/02/2003,15:20:20"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_title_itemthongbao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_time_itemthongbao"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="15dp"
+            android:text="15/02/2003,15:20:20"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tv_content_itemthongbao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_title_itemthongbao"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="15dp"
+            android:text="15/02/2003,15:20:20"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

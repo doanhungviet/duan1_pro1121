@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/drawable-v24/bg_gray.xml" value="0.1675" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/drawable-v24/bg_green.xml" value="0.1" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/drawable-v24/bg_white.xml" value="0.1" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/drawable-v24/ic_eye_off.xml" value="0.1" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/drawable/bg_gray.xml" value="0.1675" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/drawable/bg_green.xml" value="0.1" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/drawable/bg_itemrcy.xml" value="0.1" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/drawable/bg_login.xml" value="0.1" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/drawable/bg_tophocvien.xml" value="0.1" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/drawable/bg_vitri.xml" value="0.1" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/drawable/bg_white.xml" value="0.1" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/drawable/custom_btn_circler.xml" value="0.151" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/drawable/custom_edt.xml" value="0.1" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/drawable/custom_header_dialog.xml" value="0.253" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/drawable/custom_layout_circler.xml" value="0.1815" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/drawable/custom_layout_screen.xml" value="0.1815" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/drawable/custom_layoutbotton.xml" value="0.1" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/drawable/ic_notifi.xml" value="0.154" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/drawable/ic_tieptheo.xml" value="0.151" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/activity_hoc_vien_main.xml" value="0.259375" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/activity_load_hoc_vien_main.xml" value="0.259375" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/activity_load_main.xml" value="0.259375" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/activity_login_admin_main.xml" value="0.25206611570247933" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/activity_login_hoc_vien_main.xml" value="0.24479166666666666" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/activity_screen_main.xml" value="0.264" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/activity_splash_main.xml" value="0.259375" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/dialog_.xml" value="0.259375" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/dialog_addchucvu.xml" value="0.25885416666666666" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/dialog_addcuahang.xml" value="0.259375" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/dialog_addloaithetap.xml" value="0.259375" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/dialog_addnhanvien.xml" value="0.264" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/dialog_addthietbi.xml" value="0.1" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/dialog_addthongbao.xml" value="0.259375" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/fragment_ca_nhan___hoc_vien.xml" value="0.24479166666666666" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/fragment_ca_nhan_hoc_vien.xml" value="0.259375" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/fragment_chuc_vu___admin.xml" value="0.259375" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/fragment_create___hoc_vien.xml" value="0.25885416666666666" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/fragment_cua_hang___admin.xml" value="0.259375" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/fragment_cua_hang___hoc_vien.xml" value="0.24479166666666666" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/fragment_cua_hang_hoc_vien.xml" value="0.259375" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/fragment_dich_vu___admin.xml" value="0.259375" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/fragment_doanh_thu___admin.xml" value="0.259375" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/fragment_doi_mat_khau___admin.xml" value="0.259375" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/fragment_khach_hang___admin.xml" value="0.259375" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/fragment_loai_the_tap___admin.xml" value="0.259375" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/fragment_login___hoc_vien.xml" value="0.25885416666666666" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/fragment_nhan_vien___admin.xml" value="0.259375" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/fragment_tai_khoan___admin.xml" value="0.259375" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/fragment_the_tap___admin.xml" value="0.259375" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/fragment_thiet_bi___admin.xml" value="0.259375" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/fragment_thong_bao___admin.xml" value="0.259375" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/fragment_trang_chu___hoc_vien.xml" value="0.25885416666666666" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/fragment_trang_chu_hoc_vien.xml" value="0.20357142857142857" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/item_chucvu.xml" value="0.264" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/item_cuahang.xml" value="0.259375" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/item_gridview.xml" value="0.259375" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/item_loaithetap.xml" value="0.259375" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/item_nhanvien.xml" value="0.3132530120481928" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/item_notifi_hocvien.xml" value="0.25885416666666666" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/item_spiner.xml" value="0.25885416666666666" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/item_thietbi.xml" value="0.25" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/item_thongbao.xml" value="0.259375" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/layout/layout_header_admin.xml" value="0.264" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/menu/menu_bottonnav.xml" value="0.22870370370370371" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/menu/menu_loginadmin.xml" value="0.25885416666666666" />
+        <entry key="..\:/DuAn1_BaoVe/app/src/main/res/menu/menu_nav_admin.xml" value="0.22962962962962963" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
