@@ -107,6 +107,7 @@ public class Create_Fragment_HocVien extends Fragment {
                 khachHang.setHoten(edt_name.getText().toString().trim());
                 khachHang.setNamSinh(edt_lich.getText().toString().trim());
                 khachHang.setGioitinh(strGioitinh);
+                khachHang.setSoDu(0);
                 khachHang.setSoDienThoai(edt_user.getText().toString().trim());
                 khachHang.setPass(edt_mk1.getText().toString().trim());
                 intent = new Intent(getContext(), SignInServiceHocVien.class);
@@ -135,8 +136,8 @@ public class Create_Fragment_HocVien extends Fragment {
 
     }
     private boolean validate(){
-        String email = "^\\w@\\w.\\w";
-        String sdt = "^0\\d{9}";
+        String email = "\\w+@\\w+.\\w+";
+        String sdt = "0\\d{9}";
         Pattern patternEmail = Pattern.compile(email);
         Pattern patternSdt = Pattern.compile(sdt);
         String user = edt_user.getText().toString().trim();
@@ -145,11 +146,16 @@ public class Create_Fragment_HocVien extends Fragment {
             return false;
         }else {
             if (patternEmail.matcher(user).find() || patternSdt.matcher(user).find()){
-                if (edt_mk1.getText().toString().trim().equals(edt_mk2.getText().toString().trim())){
-                    return true;
-                }else {
-                    Toast.makeText(getContext(), "Mật khẩu không trùng khớp", Toast.LENGTH_SHORT).show();
+                if (edt_mk1.getText().toString().trim().length()<8){
+                    Toast.makeText(getContext(), "Vui lòng nhập mật khẩu dài hơn 8 kí tự", Toast.LENGTH_SHORT).show();
                     return false;
+                }else {
+                    if (edt_mk1.getText().toString().trim().equals(edt_mk2.getText().toString().trim())){
+                        return true;
+                    }else {
+                        Toast.makeText(getContext(), "Mật khẩu không trùng khớp", Toast.LENGTH_SHORT).show();
+                        return false;
+                    }
                 }
             }
             else {

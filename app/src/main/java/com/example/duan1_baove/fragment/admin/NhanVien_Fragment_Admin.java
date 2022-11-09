@@ -215,12 +215,17 @@ public class NhanVien_Fragment_Admin extends Fragment {
             Toast.makeText(getContext(), "Vui lòng nhập đầy đủ thông tin", Toast.LENGTH_SHORT).show();
             return false;
         }else {
-            try {
-                Integer.parseInt(edt_luong.getText().toString().trim());
-                return true;
-            }catch (Exception e){
-                Toast.makeText(getContext(), "Lương không hợp lệ", Toast.LENGTH_SHORT).show();
+            if (edt_pass.getText().toString().trim().length()<8){
+                Toast.makeText(getContext(), "Vui lòng nhập mật khẩu dài hơn 8 kí tự", Toast.LENGTH_SHORT).show();
                 return false;
+            }else {
+                try {
+                    Integer.parseInt(edt_luong.getText().toString().trim());
+                    return true;
+                }catch (Exception e){
+                    Toast.makeText(getContext(), "Lương không hợp lệ", Toast.LENGTH_SHORT).show();
+                    return false;
+                }
             }
         }
     }

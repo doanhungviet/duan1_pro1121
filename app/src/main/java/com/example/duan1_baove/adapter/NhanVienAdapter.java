@@ -152,6 +152,7 @@ public class NhanVienAdapter extends RecyclerView.Adapter<NhanVienAdapter.ViewHo
 
                     }
                 });
+                edt_user.setEnabled(false);
                 edt_user.setText(admin.getUser());
                 edt_name.setText(admin.getName());
                 edt_pass.setText(admin.getPass());
@@ -172,7 +173,6 @@ public class NhanVienAdapter extends RecyclerView.Adapter<NhanVienAdapter.ViewHo
                 });
                 btn_add.setOnClickListener(v1 -> {
                     if (validate()){
-                        admin.setUser(edt_user.getText().toString().trim());
                         admin.setName(edt_name.getText().toString().trim());
                         admin.setPass(edt_pass.getText().toString().trim());
                         admin.setChucvu_id(chucvu_id);
@@ -251,7 +251,18 @@ public class NhanVienAdapter extends RecyclerView.Adapter<NhanVienAdapter.ViewHo
                 edt_tennganhang.getText().toString().trim().isEmpty() || edt_stk.getText().toString().trim().isEmpty()){
             return false;
         }else {
-            return true;
+            if (edt_pass.getText().toString().trim().length()<8){
+                Toast.makeText(context, "Vui lòng nhập mật khẩu dài hơn 8 kí tự", Toast.LENGTH_SHORT).show();
+                return false;
+            }else {
+                try {
+                    Integer.parseInt(edt_luong.getText().toString().trim());
+                    return true;
+                }catch (Exception e){
+                    Toast.makeText(context, "Lương không hợp lệ", Toast.LENGTH_SHORT).show();
+                    return false;
+                }
+            }
         }
     }
 }
